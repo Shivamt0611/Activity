@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ShivamApp</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_middle_name">Middle Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="demo_name">Demo Name</string>
+    <string name="demo_description">Demo Description</string>
+
+    <string-array name="arrSemesters">
+        <item>Sem 1</item>
+        <item>Sem 2</item>
+        <item>Sem 3</item>
+        <item>Sem 4</item>
+    </string-array>
+
+    <string name="spUserSettings">
+        spUserSettings
+    </string>
+
+    <string name="spKeyUserName">
+        spKeyUserName
+    </string>
+
+    <string name="spKeyUserPassword">
+        spKeyUserPassword
+    </string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".seekbar_demo.SeekBar_Demo1">
+
+    <SeekBar
+        android:id="@+id/sbRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:min="0"
+        android:layout_marginBottom="16dp"
+        android:progress="100" />
+
+    <SeekBar
+        android:id="@+id/sbGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:min="0"
+        android:layout_marginBottom="16dp"
+        android:progress="100" />
+
+    <SeekBar
+        android:id="@+id/sbBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:min="0"
+        android:layout_marginBottom="16dp"
+        android:progress="100" />
+
+    <TextView
+        android:id="@+id/tvColorCode"
+        android:layout_marginBottom="64dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Color Code" />
+
+    <LinearLayout
+        android:id="@+id/llColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>

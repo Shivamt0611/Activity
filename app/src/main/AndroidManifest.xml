@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shivamapplication">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShivamApplication">
+        <activity
+            android:name=".DbData.DBMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parsing.ParsingMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Test.Test_MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".json_demo.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Database.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".JsonActivity.JsonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".jsondemo.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".diallogbt.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContextMenuAndDialogs.context"
+            android:exported="true" />
+        <activity
+            android:name=".menu.manuMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".list_demo.ListDemo"
+            android:exported="true" />
+        <activity
+            android:name=".seekbar_demo.SeekBar_Demo1"
+            android:exported="true" />
+        <activity
+            android:name=".registration_demo.Registration"
+            android:exported="true" />
+        <activity
+            android:name=".login_demo.LoginActivity"
+            android:exported="true" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

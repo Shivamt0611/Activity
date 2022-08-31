@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShivamApp</string>
+    <string name="hint_first_name">पहला नाम</string>
+    <string name="hint_last_name">" अंतिम नाम"</string>
+    <string name="hint_middle_name">मध्य नाम</string>
+</resources>

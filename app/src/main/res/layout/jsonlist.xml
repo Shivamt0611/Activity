@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/jsonLiner"
+    android:layout_margin="20dp">
+
+
+    <TextView
+        android:id="@+id/carName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_weight="0.2"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans"/>
+
+    <TextView
+        android:id="@+id/miles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="miles"
+        android:layout_weight="0.1"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/cylinders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cylinder"
+        android:layout_weight="0.1"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans"/>
+
+    <TextView
+        android:id="@+id/hoursepower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="power"
+        android:layout_weight="0.1"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="year"
+        android:layout_weight="0.1"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/origin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="origin"
+        android:layout_weight="0.1"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        />
+</LinearLayout>
